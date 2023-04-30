@@ -1,0 +1,97 @@
+@font-face{
+    src: url(/Font/RussoOne-Regular.ttf);
+    font-family:'Russo One';
+    font-weight: normal;
+}
+
+body{
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.caixasup{
+    color: #000000;
+    background-color: greenyellow;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.instrucao{
+    text-align: center;
+    padding: 10px;
+}
+
+.colunas li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid white ;
+    border-radius: 10px;
+}
+
+.btns-alinhados{
+    text-align: center;
+}
+
+.botao{
+    font-weight:bold;
+    width: 40%;
+    display:inline-block;
+    text-align: center;
+    color:black;
+    background-color:greenyellow;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.refresh{
+    font-weight:bold;
+    width: 40%;
+    display:inline-block;
+    text-align: center;
+    color:black;
+    background-color:greenyellow;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.botao:hover {
+    border-color: chartreuse;
+    transform: scale(110%);
+}
+
+.refresh:hover {
+    border-color: chartreuse;
+    transform: scale(110%);
+}
+
+.result {
+    color: greenyellow;
+    display: inline-block;
+    text-align: center;
+    width: 97%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid white ;
+    border-radius: 10px;
+    font-size: 18px;
+}
